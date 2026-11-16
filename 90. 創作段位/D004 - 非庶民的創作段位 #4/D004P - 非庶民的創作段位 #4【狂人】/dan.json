@@ -6,7 +6,7 @@
   "danTitlePlatePath": "",
   "danMiniPlatePath": "",
   "danMiniPlateText": "狂人",
-  "failMode": "Immediate",
+  "failMode": "AfterSong",
   "danSongs": [
     {
       "path": "Ars Cantate.tja",
