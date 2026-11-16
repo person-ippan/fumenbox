@@ -1,0 +1,41 @@
+{
+  "title": "D500A - 挑戦！庶民's TMC #1",
+  "danIndex": 0,
+  "danPlatePath": "Dan_Plate.png",
+  "danMiniPlateText": "#1",
+  "danSongs": [
+  {
+      "path": "超最終鬼畜妹フランドール・S.tja",
+      "difficulty": 4,
+      "genre": "バラエティ",
+      "isHidden": false
+    },
+    {
+      "path": "超ナイト・オブ・ナイツ.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "isHidden": false
+    },
+    {
+      "path": "メイドやめますか？人間やめますか？.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "isHidden": false
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Score",
+      "threshold": [
+        {
+          "red": 2500000,
+          "gold": 2700000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "裏玄人",
+  "danIndex": 15,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "panelside.png",
+  "danTitlePlatePath": "titleplate.png",
+  "danMiniPlateText": "裏玄人",
+  "danSongs": [
+    {
+      "path": "Garakuta Doll Play.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "OK I’m blue rat.tja",
+      "difficulty": 3,
+      "genre": "ナムコオリジナル",
+      "isHidden": false
+    },
+    {
+      "path": "PUPA.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "isHidden": true,
+      "branchLock": "Master"
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 40,
+          "gold": 20
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 5,
+          "gold": 2
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 96,
+          "gold": 115
+        },
+        {
+          "red": 39,
+          "gold": 45
+        },
+        {
+          "red": 24,
+          "gold": 26
+        }
+      ]
+    }
+  ]
+}

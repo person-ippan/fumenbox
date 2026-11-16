@@ -1,0 +1,41 @@
+{
+  "title": "D500D - 挑戦！庶民's TMC #4",
+  "danIndex": 3,
+  "danPlatePath": "Dan_Plate.png",
+  "danMiniPlateText": "#4",
+  "danSongs": [
+  {
+      "path": "みんなでずっと幸せに、家族で一緒に、楽しいパーティを。.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "Ars Cantate.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "Man Tinis.tja",
+      "difficulty": 4,
+      "genre": "バラエティ",
+      "isHidden": false
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Score",
+      "threshold": [
+        {
+          "red": 2500000,
+          "gold": 2700000
+        }
+      ]
+    }
+  ]
+}

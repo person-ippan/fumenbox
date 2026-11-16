@@ -1,0 +1,81 @@
+{
+  "title": "裏十段",
+  "danIndex": 14,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "panelside.png",
+  "danTitlePlatePath": "",
+  "danMiniPlatePath": "",
+  "danMiniPlateText": "裏十段",
+  "danSongs": [
+    {
+      "path": "No Gravity.tja",
+      "difficulty": 3,
+      "genre": "ナムコオリジナル",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "ロースピードフェイクリリック.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "iLLness LiLin.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 6,
+          "gold": 3
+        },
+        {
+          "red": 27,
+          "gold": 14
+        },
+        {
+          "red": 27,
+          "gold": 14
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 7,
+          "gold": 4
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 84,
+          "gold": 104
+        },
+        {
+          "red": 34,
+          "gold": 34
+        },
+        {
+          "red": 60,
+          "gold": 62
+        }
+      ]
+    }
+  ]
+}

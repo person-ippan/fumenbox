@@ -1,0 +1,35 @@
+{
+  "title": "D500C - 挑戦！庶民's TMC #3",
+  "danIndex": 2,
+  "danPlatePath": "Dan_Plate.png",
+  "danMiniPlateText": "#3",
+  "danSongs": [
+  {
+      "path": "I wanna.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "メテオライトの降る朝に.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": false
+    }
+],
+    "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Score",
+      "threshold": [
+        {
+          "red": 1600000,
+          "gold": 1800000
+        }
+      ]
+    }
+  ]
+}

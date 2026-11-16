@@ -1,0 +1,41 @@
+{
+  "title": "D500B - 挑戦！庶民's TMC #2",
+  "danIndex": 1,
+  "danPlatePath": "Dan_Plate.png",
+  "danMiniPlateText": "#2",
+  "danSongs": [
+  {
+      "path": "カナデトモスソラ.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "初音狂奏曲第01番「彗惺」.tja",
+      "difficulty": 4,
+      "genre": "ボーカロイド曲",
+      "isHidden": false
+    },
+    {
+      "path": "ゼラ.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": false
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Score",
+      "threshold": [
+        {
+          "red": 2500000,
+          "gold": 2700000
+        }
+      ]
+    }
+  ]
+}
