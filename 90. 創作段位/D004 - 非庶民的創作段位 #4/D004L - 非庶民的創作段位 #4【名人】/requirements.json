@@ -1,0 +1,16 @@
+{
+  "type": "any",
+  "conditions": [
+    {
+      "type": "danClear",
+      "path": "../D004K - 非庶民的創作段位 #4【玄人】/dan.json",
+      "clearType": "RedClear"
+    },
+    {
+      "type": "songRank",
+      "path": "../D004K - 非庶民的創作段位 #4【玄人】/RAD DOGS (remixed by 黒沢ダイスケ).tja",
+      "course": "Ura",
+      "rank": 7
+    }
+  ]
+}

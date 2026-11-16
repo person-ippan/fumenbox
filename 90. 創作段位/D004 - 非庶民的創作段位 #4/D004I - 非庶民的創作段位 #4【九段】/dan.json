@@ -1,0 +1,70 @@
+{
+  "title": "九段",
+  "danIndex": 13,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "panelside.png",
+  "danTitlePlatePath": "titleplate.png",
+  "danMiniPlatePath": "",
+  "danSongs": [
+    {
+      "path": "The Cursed Doll.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "Destr0yer (Accostic).tja",
+      "difficulty": 4,
+      "genre": "バラエティ",
+      "isHidden": true
+    },
+    {
+      "path": "電脳スペクタクル.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true,
+      "branchLock": "Master"
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 146,
+          "gold": 78
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 9,
+          "gold": 5
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 4,
+          "gold": 4
+        },
+        {
+          "red": 0,
+          "gold": 0
+        },
+        {
+          "red": 2,
+          "gold": 2
+        }
+      ]
+    }
+  ]
+}

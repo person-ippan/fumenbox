@@ -1,0 +1,66 @@
+{
+  "title": "D004F - 非庶民的創作段位 #4【六段】",
+  "danIndex": 10,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "文学講義.tja",
+      "difficulty": 3,
+      "genre": "ポップス",
+      "isHidden": false
+    },
+    {
+      "path": "とうほう☆ワンダーランド.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "最大公約数.tja",
+      "difficulty": 3,
+      "genre": "ポップス",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 313,
+          "gold": 233
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 18,
+          "gold": 9
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 43,
+          "gold": 57
+        },
+        {
+          "red": 135,
+          "gold": 171
+        },
+        {
+          "red": 79,
+          "gold": 98
+        }
+      ]
+    }
+  ]
+}

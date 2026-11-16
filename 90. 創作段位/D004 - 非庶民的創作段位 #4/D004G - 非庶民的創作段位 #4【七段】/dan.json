@@ -1,0 +1,66 @@
+{
+  "title": "D004G - 非庶民的創作段位 #4【七段】",
+  "danIndex": 11,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "少年少女.tja",
+      "difficulty": 3,
+      "genre": "ポップス",
+      "isHidden": true
+    },
+    {
+      "path": "アイリッド.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "レグルス.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 250,
+          "gold": 198
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 15,
+          "gold": 8
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 25,
+          "gold": 32
+        },
+        {
+          "red": 79,
+          "gold": 99
+        },
+        {
+          "red": 136,
+          "gold": 173
+        }
+      ]
+    }
+  ]
+}

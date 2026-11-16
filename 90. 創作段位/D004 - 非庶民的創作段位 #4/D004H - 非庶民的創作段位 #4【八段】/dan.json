@@ -1,0 +1,66 @@
+{
+  "title": "D004F - 非庶民的創作段位 #4【八段】",
+  "danIndex": 12,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "カナデトモスソラ.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "Splattack! (Octo).tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "BOSS BATTLE BIG ARM.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 188,
+          "gold": 130
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 12,
+          "gold": 6
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 0,
+          "gold": 0
+        },
+        {
+          "red": 36,
+          "gold": 43
+        },
+        {
+          "red": 126,
+          "gold": 139
+        }
+      ]
+    }
+  ]
+}

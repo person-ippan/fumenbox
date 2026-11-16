@@ -1,0 +1,66 @@
+{
+  "title": "D003L - 非庶民的創作段位 #3【名人】",
+  "danIndex": 16,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "The Black Page #1.tja",
+      "difficulty": 3,
+      "genre": "ポップス",
+      "isHidden": true
+    },
+    {
+      "path": "メイドやめますか？人間やめますか？.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "isHidden": true
+    },
+    {
+      "path": "多次元宇宙融合論.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 35,
+          "gold": 18
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 6,
+          "gold": 3
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 372,
+          "gold": 387
+        },
+        {
+          "red": 259,
+          "gold": 304
+        },
+        {
+          "red": 33,
+          "gold": 40
+        }
+      ]
+    }
+  ]
+}

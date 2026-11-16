@@ -1,0 +1,75 @@
+{
+  "title": "D004J - 非庶民的創作段位 #4 【十段】",
+  "danIndex": 14,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "Man Tinis.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "isHidden": true,
+      "branchLock": "Master"
+    },
+    {
+      "path": "終焉逃避行.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": true
+    },
+    {
+      "path": "グローリー・ワンダーランド.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 25,
+          "gold": 13
+        },
+	{
+          "red": 30,
+          "gold": 15
+        },
+	{
+          "red": 25,
+          "gold": 12
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 8,
+          "gold": 5
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 0,
+          "gold": 0
+        },
+        {
+          "red": 3,
+          "gold": 3
+        },
+        {
+          "red": 335,
+          "gold": 411
+        }
+      ]
+    }
+  ]
+}

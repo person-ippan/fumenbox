@@ -1,0 +1,55 @@
+{
+  "title": "第n+4回庶民's 譜面速度違反選手権「S-1グランプリ」",
+  "danIndex": 19,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "",
+  "danTitlePlatePath": "",
+  "danMiniPlatePath": "",
+  "danMiniPlateText": "外伝",
+  "danSongs": [
+    {
+      "path": "とうほう☆ワンダーランド.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "超ナイト・オブ・ナイツ.tja",
+      "difficulty": 3,
+      "genre": "バラエティ",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "ØVER《Δ》.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 0,
+    "gold": 0
+  },
+  "conditions": [
+    {
+      "type": "Score",
+      "threshold": [
+        {
+          "red": 930000,
+          "gold": 950000
+        },
+        {
+          "red": 930000,
+          "gold": 950000
+        },
+        {
+          "red": 730000,
+          "gold": 800000
+        }
+      ]
+    }
+  ]
+}

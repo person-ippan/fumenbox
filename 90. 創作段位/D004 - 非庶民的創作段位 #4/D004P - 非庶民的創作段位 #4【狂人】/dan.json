@@ -1,0 +1,90 @@
+{
+  "title": "狂人",
+  "danIndex": 0,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "",
+  "danTitlePlatePath": "",
+  "danMiniPlatePath": "",
+  "danMiniPlateText": "狂人",
+  "failMode": "Immediate",
+  "danSongs": [
+    {
+      "path": "Ars Cantate.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "化けの花.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    },
+    {
+      "path": "余花にみとれて.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "branchLock": "None",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 0,
+    "gold": 0
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 30,
+          "gold": 10
+        },
+        {
+          "red": 10,
+          "gold": 5
+        },
+        {
+          "red": 827,
+          "gold": 827
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 5,
+          "gold": 3
+        },
+        {
+          "red": 3,
+          "gold": 2
+        },
+        {
+          "red": 430,
+          "gold": 430
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 122,
+          "gold": 126
+        },
+        {
+          "red": 18,
+          "gold": 23
+        },
+        {
+          "red": 0,
+          "gold": 0
+        }
+      ]
+    }
+  ]
+}

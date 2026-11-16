@@ -1,0 +1,61 @@
+{
+  "title": "五段",
+  "danIndex": 9,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "panelside.png",
+  "danTitlePlatePath": "titleplate.png",
+  "danMiniPlatePath": "",
+  "danSongs": [
+    {
+      "path": "インテグラル.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": false
+    },
+    {
+      "path": "ザムザ.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "ペンタトニック.tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 99,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 278,
+          "gold": 234
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 18,
+          "gold": 9
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 209,
+          "gold": 264
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "D003K - 非庶民的創作段位 #3【玄人】",
+  "danIndex": 15,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "ノーウェアエレベータ.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": true
+    },
+    {
+      "path": "ポジティブ☆ダンスタイム.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": true
+    },
+    {
+      "path": "RAD DOGS (remixed by 黒沢ダイスケ).tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 50,
+          "gold": 25
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 7,
+          "gold": 4
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 109,
+          "gold": 109
+        },
+        {
+          "red": 68,
+          "gold": 73
+        },
+        {
+          "red": 83,
+          "gold": 100
+        }
+      ]
+    }
+  ]
+}
