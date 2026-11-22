@@ -1,0 +1,70 @@
+{
+  "title": "裏名人",
+  "danIndex": 16,
+  "danPlatePath": "Dan_Plate.png",
+  "danPanelSidePath": "panelside.png",
+  "danTitlePlatePath": "titleplate.png",
+  "danMiniPlateText": "裏名人",
+  "danSongs": [
+    {
+      "path": "Honey Heartbeat 10 Stars Mix (AC16).tja",
+      "difficulty": 4,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "Rotter Tarmination.tja",
+      "difficulty": 4,
+      "genre": "ナムコオリジナル",
+      "isHidden": true
+    },
+    {
+      "path": "Sound Chimera.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true,
+      "branchLock": "Master"
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 22,
+          "gold": 11
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 4,
+          "gold": 2
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 246,
+          "gold": 298
+        },
+        {
+          "red": 128,
+          "gold": 157
+        },
+        {
+          "red": 93,
+          "gold": 97
+        }
+      ]
+    }
+  ]
+}

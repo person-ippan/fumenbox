@@ -1,0 +1,16 @@
+{
+  "type": "any",
+  "conditions": [
+    {
+      "type": "danClear",
+      "path": "../D004L - 非庶民的創作段位 #4【名人】/dan.json",
+      "clearType": "RedClear"
+    },
+    {
+      "type": "songRank",
+      "path": "../D004L - 非庶民的創作段位 #4【名人】/多次元宇宙融合論.tja",
+      "course": "Oni",
+      "rank": 7
+    }
+  ]
+}

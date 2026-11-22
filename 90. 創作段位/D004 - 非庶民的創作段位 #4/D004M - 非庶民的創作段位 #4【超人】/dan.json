@@ -1,0 +1,66 @@
+{
+  "title": "D004M - 非庶民的創作段位 #4【超人】",
+  "danIndex": 17,
+  "danPlatePath": "Dan_Plate.png",
+  "danSongs": [
+  {
+      "path": "ぐちゃぐちゃぬるぽ.tja",
+      "difficulty": 3,
+      "genre": "ボーカロイド曲",
+      "isHidden": true
+    },
+    {
+      "path": "最強STRONGER.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    },
+    {
+      "path": "雨露霜雪.tja",
+      "difficulty": 3,
+      "genre": "ゲームミュージック",
+      "isHidden": true
+    }
+  ],
+  "conditionGauge": {
+    "red": 100,
+    "gold": 100
+  },
+  "conditions": [
+    {
+      "type": "Good",
+      "threshold": [
+        {
+          "red": 18,
+          "gold": 9
+        }
+      ]
+    },
+    {
+      "type": "Miss",
+      "threshold": [
+        {
+          "red": 4,
+          "gold": 2
+        }
+      ]
+    },
+    {
+      "type": "Roll",
+      "threshold": [
+        {
+          "red": 15,
+          "gold": 17
+        },
+        {
+          "red": 44,
+          "gold": 47
+        },
+        {
+          "red": 25,
+          "gold": 29
+        }
+      ]
+    }
+  ]
+}
